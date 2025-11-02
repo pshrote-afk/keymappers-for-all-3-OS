@@ -26,4 +26,4 @@ F6::Send("{Media_Play_Pause}")
 	WinActivate("ahk_exe brave.exe")
 }
 
-^`::Send ^+{Tab}       ; This switches to the previous tab. Ctrl+Shift+Tab
+^`::Send("^+{Tab}")      ; This switches to the previous tab. Ctrl+Shift+Tab

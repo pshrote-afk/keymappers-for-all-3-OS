@@ -20,8 +20,9 @@
 You need:  
 1. Install [AutoHotkey v2](https://www.autohotkey.com/)  
 2. Create a file `hotkeys.ahk` and paste this script.  
-3. Double-click it to run (green “H” tray icon).
-4. 10 minutes  
+3. Double-click it to run (will show green “H” in tray icon).
+4. AHK is about 100–300× lighter than MS Word — you can leave it running 24/7 without any impact.
+5. 5 minutes  
 
 ---
 

@@ -12,6 +12,14 @@ RShift & n::{
 	WinActivate("ahk_exe chrome.exe")
 }
 
+RShift & g::{
+	Run('chrome.exe "https://docs.google.com/document/d/1bo1FArp9gV48quxBNx8NyzDjf4UFshf-cXZJc3c2f_Q/edit?tab=t.ubcxxjs3zsdj#heading=h.uev0ib29bvoi"')
+	WinWait("ahk_exe chrome.exe", , 2)
+	WinActivate("ahk_exe chrome.exe")
+}
+
+
+
 F6::Send("{Media_Play_Pause}")
 
 #c::{   ; win+c
@@ -27,3 +35,12 @@ F6::Send("{Media_Play_Pause}")
 }
 
 ^`::Send("^+{Tab}")      ; This switches to the previous tab. Ctrl+Shift+Tab
+
+LShift & z:: {		; Moves Windows Desktop workspace to the left. Same as ctrl + win + left arrow.
+    Send "^#{Left}"
+}
+
+LShift & x:: {		; Moves Windows Desktop workspace to the right. Same as ctrl + win + right arrow.
+    Send "^#{Right}"
+}
+

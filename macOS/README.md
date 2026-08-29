@@ -1,15 +1,3 @@
-## Total three branches are available:
-1. macOS 
-2. Windows
-3. Linux
-
-## 💡 Why use custom keyboard shortcuts
-- Open tools instantly  
-- Stay keyboard-only  
-- Easy to edit and extend
-- increased productivity
-
----
 # 1. macOS 
 
 #### Left Shift Arrow Navigations

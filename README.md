@@ -15,9 +15,12 @@
 #### Left Shift Arrow Navigations
 
 Remaps via [Karabiner-Elements](https://karabiner-elements.pqrs.org/):
-- `Left Shift + Z` → `Ctrl + Left Arrow` (word-left)
-- `Left Shift + X` → `Ctrl + Right Arrow` (word-right)
 
+| Keys | Action | Default shortcut
+|------|---------|-------- |
+| **LShift + Z** | Move to left desktop | Ctrl + Left arrow
+| **LShift + X** | Move to right desktop | Ctrl + Right arrow
+| **Right Alt** | Toggle Notification Centre | R Alt + ,
 
 
 ## Setup

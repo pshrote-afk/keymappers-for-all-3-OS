@@ -61,3 +61,7 @@ sudo rm -rf /Applications/Karabiner-*.app ~/.config/karabiner /Library/Applicati
 
 ## Why Karabiner (instead of native `hidutil`)
 `hidutil` only supports 1-key → 1-key remaps. It can't use a modifier+key combo as a trigger, or output a multi-key combo. Karabiner-Elements handles both.
+
+---
+
+Additional resources: [27 Mac Settings](https://www.youtube.com/watch?v=dxpUMcO04Bo)

@@ -105,21 +105,6 @@
           "to": [{ "key_code": "s", "modifiers": ["left_command"] }]
         }
       ]
-    },
-    {
-      "description": "Right Option + Left/Right Arrow sends Cmd + [ or ] - to move forward/backward in a browser",
-      "manipulators": [
-      {
-        "type": "basic",
-        "from": { "key_code": "left_arrow", "modifiers": { "mandatory": ["left_option"] } },
-        "to": [{ "key_code": "open_bracket", "modifiers": ["left_command"] }]
-      },
-      {
-        "type": "basic",
-        "from": { "key_code": "right_arrow", "modifiers": { "mandatory": ["left_option"] } },
-        "to": [{ "key_code": "close_bracket", "modifiers": ["left_command"] }]
-      }
-      ]
     }
   ]
 }

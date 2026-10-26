@@ -36,11 +36,14 @@ F6::Send("{Media_Play_Pause}")
 
 ^`::Send("^+{Tab}")      ; This switches to the previous tab. Ctrl+Shift+Tab
 
-LShift & z:: {		; Moves Windows Desktop workspace to the left. Same as ctrl + win + left arrow.
-    Send "^#{Left}"
-}
 
-LShift & x:: {		; Moves Windows Desktop workspace to the right. Same as ctrl + win + right arrow.
-    Send "^#{Right}"
-}
+; >! means Right Alt, and + means Shift
+>!a::Send("ä")
+>!+a::Send("Ä")
+>!o::Send("ö")
+>!+o::Send("Ö")
+>!u::Send("ü")
+>!+u::Send("Ü")
+>!s::Send("ß")
+
 

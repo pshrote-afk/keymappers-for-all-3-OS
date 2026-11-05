@@ -72,7 +72,7 @@
       ]
     },
     {
-      "description": "Ctrl + X/C/V/A/Z/S sends Cmd + X/C/V/A/Z/S",
+      "description": "Ctrl + X/C/V/A/Z/S/T/W/F/B sends Cmd + X/C/V/A/Z/S/T/W/F/B",
       "manipulators": [
         {
           "type": "basic",
@@ -103,6 +103,26 @@
           "type": "basic",
           "from": { "key_code": "s", "modifiers": { "mandatory": ["left_control"] } },
           "to": [{ "key_code": "s", "modifiers": ["left_command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "t", "modifiers": { "mandatory": ["left_control"], "optional": ["shift"] } }, // Shift passes through so Cmd + Shift + Z sends Ctrl + Shift + Z (redo)
+          "to": [{ "key_code": "t", "modifiers": ["left_command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "w", "modifiers": { "mandatory": ["left_control"], "optional": ["shift"] } }, // Shift passes through so Cmd + Shift + Z sends Ctrl + Shift + Z (redo)
+          "to": [{ "key_code": "w", "modifiers": ["left_command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "f", "modifiers": { "mandatory": ["left_control"], "optional": ["shift"] } }, // Shift passes through so Cmd + Shift + Z sends Ctrl + Shift + Z (redo)
+          "to": [{ "key_code": "f", "modifiers": ["left_command"] }]
+        },
+        {
+          "type": "basic",
+          "from": { "key_code": "b", "modifiers": { "mandatory": ["left_control"], "optional": ["shift"] } }, // Shift passes through so Cmd + Shift + Z sends Ctrl + Shift + Z (redo)
+          "to": [{ "key_code": "b", "modifiers": ["left_command"] }]
         }
       ]
     }
